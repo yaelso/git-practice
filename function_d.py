@@ -3,13 +3,17 @@ def max_value(numbers):
         in the list.
     """
 
-    max = numbers[0]
-    for num in numbers:
-        if num > max:
-            max = num
 
-    return max
-#return max(numbers)
+    maximun = numbers[0]
+    for num in numbers:
+        if num > maximun:
+            maximun = num
+
+    return maximun
+
+
+    
+
 
 
 if __name__ == "__main__":
